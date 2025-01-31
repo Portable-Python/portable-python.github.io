@@ -1,3 +1,167 @@
-<h1>
-  Hello World
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Python Distribution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1c1c1c;
+            padding: 13px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #ffffff;
+        }
+
+        .content {
+            padding: 10px;
+        }
+
+        .section-title {
+            font-size: 1.4em;
+            margin-bottom: 12px;
+            color: #f5f5f5;
+        }
+
+        .section-content {
+            margin-bottom: 13px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 6px;
+            font-size: 0.9em;
+        }
+
+        p {
+            margin-bottom: 6px;
+            font-size: 0.9em;
+        }
+
+        a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #1c1c1c;
+            padding: 8px;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .pip-command {
+            color: #ff9800;
+            font-weight: bold;
+        }
+
+        code {
+            background-color: #333;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portable Python Distribution</h1>
+    </header>
+
+    <div class="content">
+        <section>
+            <div class="section-title">🛠️ Key Features</div><br>
+
+
+            
+                <ul>
+                    <li>🚀 Easy to use – Just unzip the archive and start coding with Python right away!</li>
+                    <li>📦 Pip support – You can install additional Python modules as needed with pip.</li>
+                    <li>🔧 Pre-configured environment – Most commonly used Python modules are already included.</li>
+                    <li>❌ No admin privileges required – You can unzip and use the distribution anywhere.</li>
+                </ul>
+            
+        </section>
+
+        <br>
+        <section>
+            <div class="section-title">📥 Download & Setup</div>
+            
+            <p><a href="https://github.com/portable-python/portable-python">Github Repo</a></p>
+            <div class="section-content">
+                <p>1. <a href="https://github.com/portable-python/portable-python/portable-python.zip" target="_blank">Download</a> the latest version of the portable Python distribution for your platform </p>
+                <p>2. Once the download is complete, unzip the 
+                    <code>.zip</code> file to a location of your choice. No installation is required!</p>
+                
+
+                <pre><code>Expand-Archive -Path portable-python.zip</code></pre>
+            </div>
+        </section>
+
+        <br>
+        <section>
+            <div class="section-title">🚀 Run Python</div>
+            <div class="section-content">
+                <p> Navigate to the folder where you extracted the files and double-click on <code>python.exe</code> to launch the Python interpreter.</p>
+                
+                <pre><code>python example.py</code></pre>
+            </div>
+        </section>
+
+        <br>
+        <section>
+            <div class="section-title">📦 Install Modules with Pip</div>
+            <div class="section-content">
+                <p>If you need additional Python modules, you can easily install them using <code>pip</code>. 
+                    The distribution already includes <code>pip</code>, so no separate installation is required.</p>
+                <p>To install a package, open the terminal (or command prompt) in the extracted folder and use the following command:</p>
+                <pre><code>python -m pip install [package-name] </code></pre>
+                <p>Example: To install <b>requests</b>, use the following command:</p>
+                <pre><code>python -m pip install requests</code></pre>
+            </div>
+        </section>
+
+        <br>
+        <section>
+            <div class="section-title">🌟 Easy Installation Process</div>
+            <div class="section-content">
+                <p>This distribution is designed to be as simple as possible to use. </p>
+                <p>Just download, unzip, and you're ready to go – no additional installation steps or administrative access are required. You can even carry it on a USB drive to use it anywhere!</p>
+            </div>
+        </section>
+
+
+
+        <footer>
+            <p>Happy coding! 🎉</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
